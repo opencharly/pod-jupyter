@@ -1,7 +1,5 @@
-version: 2026.232.0520
 jupyter:
     candy:
-        version: 2026.243.0100
         description: |
             JupyterLab notebook server with a CRDT MCP server for agent-driven notebook editing.
             Installs JupyterLab into the pixi default environment (the jupyter-lab
