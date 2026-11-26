@@ -77,13 +77,10 @@ list and version pins live in `candy/jupyter/pixi.toml` — see
 
 ## Key Candies
 
-- `/charly-jupyter:jupyter` — JupyterLab + collaboration + data science
 - `/charly-distros:agent-forwarding` — SSH/GPG forwarding
 
 ## Related Boxes
 
-- `/charly-jupyter:jupyter-ml` — GPU-accelerated variant (nvidia base, full ML stack)
-- `/charly-jupyter:jupyter-ml-notebook` — GPU variant with fine-tuning notebooks
 - `/charly-openwebui:openwebui` — Open WebUI consumes jupyter for code execution and MCP tools
 - `/charly-hermes:hermes` — Hermes agent consumes jupyter MCP for notebook manipulation
 - `/charly-distros:fedora` — parent base image
@@ -294,11 +291,9 @@ See `/charly-check:check` for the framework and author-facing gotchas.
 
 ## Related Skills
 
-- `/charly-jupyter:jupyter`, `/charly-jupyter:jupyter-mcp`, `/charly-jupyter:notebook-templates`
 - `/charly-check:check` — declarative testing framework
 - `/charly-core:charly-config` — deploy setup
 - `/charly-build:charly-mcp-cmd` — the box inherits 3 `context: [deploy]` `mcp:` scenario steps from the `jupyter` candy (`ping`, `list-tools` asserting all 11 prefixed tool names, `call notebook_list`). Run `charly check live jupyter --filter mcp` to exercise them against a live deployment
-- `/charly-jupyter:jupyter-ml`, `/charly-jupyter:jupyter-ml-notebook` — GPU variants that inherit the same MCP test suite
 
 ## When to Use This Skill
 
