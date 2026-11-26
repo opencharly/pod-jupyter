@@ -66,7 +66,7 @@ for that path, or creates one. Idle rooms are swept after
   matrix, and verification.
 - `/charly-jupyter:jupyter-mcp` — the CRDT MCP server extension and its tool
   catalog.
-- `/charly-jupyter:jupyter-ml` / `/charly-jupyter:jupyter-ml-notebook` — GPU
+- `/charly-jupyter:jupyter-ml-notebook` — GPU
   variants that inherit the same MCP suite.
 - [`opencharly/charly`](https://github.com/opencharly/charly) — the charly CLI and image builder
 - [`opencharly/opencharly`](https://github.com/opencharly/opencharly) — the umbrella
