@@ -223,9 +223,6 @@ step — tagged with the `context:` axis that selects when it runs:
   - `mcp-jupyter-call-list-notebooks` — actually invokes
     `notebook_list` and verifies the response shape
 
-## Used In Boxes
-
-
 ## Related Candies
 
 - `/charly-hermes:hermes` -- MCP consumer (auto-discovers via `CHARLY_MCP_SERVERS` env var; uses `jupyter` server tools to read/edit/execute cells)
